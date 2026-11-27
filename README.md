@@ -170,3 +170,13 @@ This project helped me understand:
 - Testing webhook signatures
 - Measuring code coverage
 - Preparing a project for GitHub submission
+
+
+## GitHub Actions
+
+This project uses GitHub Actions for automated testing.
+
+- Runs tests automatically on pushes and pull requests.
+- Uses a PostgreSQL 16 service container.
+- Runs pytest with coverage reporting.
+- Uses SQLite for local testing.
